@@ -1,0 +1,179 @@
+.bgcolor-4a4a4a
+{
+	background-color: #4a4a4a;
+}
+
+.bgcolor-eeeeee
+{
+	background-color: #eeeeee;
+}
+
+.bgcolor-ffffff
+{
+	background-color: #ffffff;
+}
+
+.bgcolor-888888
+{
+	background-color: #888888;
+}
+
+.border-999999
+{
+	border : 1px solid #999999;
+}
+
+.border-cccccc
+{
+	border : 1px solid #999999;
+}
+
+.clearb
+{
+	clear:both;
+}
+
+.color-ffffff
+{
+	color: #ffffff;
+}
+
+.color-111111
+{
+	color: #111111;
+}
+
+.cursor
+{
+	cursor: pointer;
+}
+
+.lfloat
+{
+	float:left;
+}
+
+.rfloat
+{
+	float:right;
+}
+
+.border-none
+{
+	border : none;
+}
+
+.fsize19
+{
+	font-size: 19px;
+}
+
+.bold
+{
+	font-weight: bold;
+}
+
+.marginb5
+{
+	margin-bottom: 5px;
+}
+
+.marginb10
+{
+	margin-bottom: 10px;
+}
+
+.marginb19
+{
+	margin-bottom: 19px;
+}
+
+.marginb20
+{
+	margin-bottom: 20px;
+}
+
+.marginr5
+{
+	margin-right: 5px;
+}
+
+.marginr10
+{
+	margin-right: 10px;
+}
+
+.marginr20
+{
+	margin-right: 20px;
+}
+
+.marginr8
+{
+	margin-right: 8px;
+}
+
+.marginr37
+{
+	margin-right: 37px;
+}
+
+.marginr18
+{
+	margin-right: 18px;
+}
+
+.marginr42
+{
+	margin-right: 42px;
+}
+
+.marginl24
+{
+	margin-left: 24px;
+}
+
+.marginl17
+{
+	margin-left: 17px;
+}
+
+.marginl46
+{
+	margin-left: 46px;
+}
+.marginl14
+{
+	margin-left: 14px;
+}
+
+.marginl33
+{
+	margin-left: 33px;
+}
+
+.marginl40
+{
+	margin-left: 40px;
+}
+
+.marginl5
+{
+	margin-left: 5px;
+}
+
+
+.paddingt20
+{
+	padding-top: 20px;
+}
+
+.paddingl12 
+{
+	padding-left: 12px;
+}
+
+.positionr
+{
+	position:relative;
+}

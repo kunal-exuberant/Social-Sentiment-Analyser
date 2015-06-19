@@ -1,0 +1,77 @@
+.main-container{
+    font-size: 12px;
+}
+
+.post{
+
+
+}
+
+.post-each{
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+    width: 600px;
+    position: relative;
+
+}
+
+.post-text
+{
+    width: 430px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+
+.button {
+    border: medium none;
+    cursor: pointer;
+    height: 30px;
+    padding: 4px;
+    min-width: 100px;
+    color: #B2608E;
+    font-weight: bold;
+}
+
+.pos
+{
+    background-color: green;
+    width: 100px;
+    color: #ffffff;
+
+}
+
+.neutral
+{
+    background-color: gray;
+    width: 100px;
+    color: #ffffff;
+}
+
+.neg
+{
+    background-color: red;
+    width: 100px;
+    color: #ffffff;
+}
+
+.active
+{
+    background-color: #eeeeee;
+}
+
+.sentiment-percent
+{
+    position: absolute;
+    top: 9px;
+    right: 5px;
+    color: white;
+    z-index: 100;
+}
+
+.sentiment-text
+{
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}

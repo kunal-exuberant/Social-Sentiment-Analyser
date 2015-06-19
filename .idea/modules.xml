@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/focus.iml" filepath="$PROJECT_DIR$/.idea/focus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Vedanta/vedanta/.idea/vedanta.iml" filepath="$PROJECT_DIR$/../Vedanta/vedanta/.idea/vedanta.iml" />
     </modules>
   </component>
 </project>

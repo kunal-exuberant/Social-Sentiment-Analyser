@@ -1,0 +1,58 @@
+<div class="footer_bg"><!-- start footre -->
+  <div class="container">
+  </div>
+</div>
+<div class="footer_btm"><!-- start footer_btm -->
+  <div class="container">
+    <div class="row  footer1">
+      <div class="col-md-5">
+        <div class="soc_icons">
+          <ul class="list-unstyled">
+            <li><a class="icon1" target="_blank" href="https://www.facebook.com/flipkart"></a></li>
+            <li><a class="icon2" target="_blank" href="https://twitter.com/Flipkart"></a></li>
+            <li><a class="icon3" target="_blank" href="https://plus.google.com/+flipkart/"></a></li>
+            <li><a class="icon5" target="_blank" href="https://www.linkedin.com/company/321062?trk=tyah&trkInfo=clickedVertical%3Acompany%2Cidx%3A2-1-2%2CtarId%3A1433502871190%2Ctas%3Aflipkart"></a></li>
+            <div class="clearfix"></div>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-7 copy">
+        <p class="link text-right"><span>&#169; All rights reserved | Design by&nbsp;<a href="http://facebook.com/kunal.exuberant"> Kunal Singh | Shashank Khare | Monish Kumar</a></span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+
+    $(function(){
+
+       if(document.URL.indexOf("blog") > -1){
+            $('#menu_top_header').html('<li><a href="/">About</a></li><li><a href="about">Order Id</a></li><li class="active"><a href="blog">Tickets</a></li><li><a href="/graph">Graph</a></li><li><a href="contact">contact</a></li>');
+
+            $('#header_container').append('<ol class="breadcrumb"><li><a href="/">Home</a></li><li class="active">blog</li></ol>');
+        }
+        else if(document.URL.indexOf("about") > -1){
+            $('#menu_top_header').html('<li><a href="/">About</a></li><li class="active"><a href="about">Order Id</a></li><li><a href="blog">Tickets</a></li><li><a href="/graph">Graph</a></li><li><a href="contact">contact</a></li>');
+
+            $('#header_container').append('<ol class="breadcrumb"><li><a href="/">Home</a></li><li class="active">about</li></ol>');
+        }
+       else if(document.URL.indexOf("graph") > -1){
+           $('#menu_top_header').html('<li><a href="/">About</a></li><li><a href="about">Order Id</a></li><li><a href="blog">Tickets</a></li><li><a href="/graph">Graph</a></li><li class="active"><a href="contact">contact</a></li>');
+
+           $('#header_container').append('<ol class="breadcrumb"><li><a href="/">Home</a></li><li class="active">contact</li></ol>');
+       }
+        else if(document.URL.indexOf("contact") > -1){
+            $('#menu_top_header').html('<li><a href="/">About</a></li><li><a href="about">Order Id</a></li><li><a href="blog">Tickets</a></li><li><a href="/graph">Graph</a></li><li class="active"><a href="contact">contact</a></li>');
+
+            $('#header_container').append('<ol class="breadcrumb"><li><a href="/">Home</a></li><li><a href="/">Graph</a></li><li class="active">contact</li></ol>');
+        }
+        else{
+            $('#menu_top_header').html('<li class="active"><a href="/">About</a></li><li><a href="about">Order Id</a></li><li><a href="blog">Tickets</a></li><li><a href="/graph">Graph</a></li><li><a href="contact">contact</a></li>');
+
+            $('#header_container').append('<div class="row slider text-center"><div class="col-md-8"><div class="col-md-10 slider_text"><h2>Flipkart Social Sentiment Anaysis</h2><h3>Integrated Interface to see what customers feel about Flipkart</h3></div></div><div class="col-md-4"><div class="slider_img"><img src="/../../assets/flipkart-f.png" alt="" class="img-responsive"/></div></div></div>');
+
+        }
+
+    });
+</script>
